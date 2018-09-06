@@ -9,21 +9,46 @@
 
 }
 
-button {
-    color: blue;
+#headerLettersAlreadyGuessed {
+    font-size: 20px;
+    text-align: center;
+    margin: 30px auto;
+
 }
+
+#headerWins {
+    font-size: 20px;
+    text-align: center;
+    margin: 30px auto;
+
+}
+
+#headerLosses {
+    font-size: 20px;
+    text-align: center;
+    margin: 30px auto;
+
+}
+
+#guessesRemaining{ 
+    font-size: 20px;
+    text-align: center;
+    margin: 30px auto;
+}
+
 img {
    
     margin: 30px auto;
     padding:20px;
 
 }
-#currentWord {
+#currentWord, #Wins, #Losses, #lettersAlreadyGuessed, #guessesLeft{
 
-    border: 3px solid black;
     font-size: 20px;
     text-align: center;
-    margin: 30px auto;
-    height: 100px;
+    height: 50px;
 
 }
+
+
+ 
