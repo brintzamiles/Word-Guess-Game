@@ -1,11 +1,11 @@
-.thumbnail {
-    border: 2px solid yellow;
-}
+
 
 #headerCurrentWord {
     font-size: 20px;
     text-align: center;
     margin: 30px auto;
+    font-weight: bolder;
+    font-style: oblique;
 
 }
 
@@ -13,6 +13,10 @@
     font-size: 20px;
     text-align: center;
     margin: 30px auto;
+    font-weight: bolder;
+    font-style: oblique;
+
+
 
 }
 
@@ -20,6 +24,10 @@
     font-size: 20px;
     text-align: center;
     margin: 30px auto;
+    font-weight: bolder;
+    font-style: oblique;
+
+
 
 }
 
@@ -27,6 +35,10 @@
     font-size: 20px;
     text-align: center;
     margin: 30px auto;
+    font-weight: bolder;
+    font-style: oblique;
+
+
 
 }
 
@@ -34,6 +46,10 @@
     font-size: 20px;
     text-align: center;
     margin: 30px auto;
+    font-weight: bolder;
+    font-style: oblique;
+
+
 }
 
 img {

@@ -35,7 +35,7 @@ for(var i = 0; i < getRandWord.length; i++) {
     console.log (getRandWord);
     if (getRandWord[i] === ' ') {
         console.log ("issa space");
-        displaySpaces.push('*');
+        displaySpaces.push(' ');
         //did only makes sure that the space is denoted for to indicate all letters have been analyzed as stopper
         wordLengthTracker++;
     }
@@ -46,17 +46,12 @@ for(var i = 0; i < getRandWord.length; i++) {
 
     //write results to the screen
     document.getElementById('guessesLeft').textContent  = remaining;
-    document.getElementById('currentWord').innerHTML  = displaySpaces.join (" ");
+    document.getElementById("currentWord").style.whiteSpace = "pre";
+    document.getElementById('currentWord').textContent  = displaySpaces.join (" ");
+    document.getElementById('lettersAlreadyGuessed').textContent  = wrongGuess.join(" ");
 
-    //trying to work through issue where space won't print to the DOM
-    //displayHolder = displaySpaces.join(" ");
-    //console.log("spaces " + displaySpaces);
-    //console.log("holder " + displayHolder);
-    //displayHolder = displayHolder.replace("space", "     ")
-    //console.log("holder2 " + displayHolder);
 
-    //document.getElementById('currentWord').innerHTML  = displayHolder;
-    //alert (displayHolder);
+    
 }
 
 function Guess(userGuess) {
