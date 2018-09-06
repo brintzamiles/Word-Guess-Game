@@ -1,9 +1,24 @@
 .thumbnail {
     border: 2px solid yellow;
-    align-content: center;
 }
 
-.currentword, .WrongGuess, .RightGuess {
+#headerCurrentWord {
+    font-size: 20px;
+    text-align: center;
+    margin: 30px auto;
+
+}
+
+button {
+    color: blue;
+}
+img {
+   
+    margin: 30px auto;
+    padding:20px;
+
+}
+#currentWord {
 
     border: 3px solid black;
     font-size: 20px;
